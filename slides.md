@@ -505,7 +505,8 @@ class: text-center
   </p>
   <p class="rights-detail mt-5">
     You may view and share this work with credit. Uses outside the license—especially commercial
-    reuse or adapted versions—require separate permission. Full terms in the repository <code class="rights-code">LICENSE</code>.
+    reuse or adapted versions—require separate permission. Full terms are published on this site:
+    <a class="rights-link" href="./terms.html" target="_blank" rel="noopener noreferrer">terms.html</a>.
   </p>
   <p class="rights-note mt-6">
     This slide is not legal advice. Third‑party media in the deck may be subject to separate rights.

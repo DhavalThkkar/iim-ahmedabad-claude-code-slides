@@ -10,6 +10,8 @@ Copyright © 2026 Dhaval Thakkar.
 
 The repository—including slide content, styling, and supporting configuration—is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International** (**CC BY-NC-ND 4.0**). See the [`LICENSE`](LICENSE) file and the [human-readable summary](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
+The published deck also includes a public terms page at `/terms.html` (source: [`public/terms.html`](public/terms.html)). This keeps the reuse terms visible even if the repository is made private later.
+
 **Private repository:** Making this repo **private** does **not** remove copyright. It limits who can discover the files on GitHub; it does not replace a license. Any published site (for example GitHub Pages) should still respect the terms you publish alongside it.
 
 **Not legal advice.** For commercial reuse, adaptations beyond the license, or enforcement questions, consult a qualified attorney.

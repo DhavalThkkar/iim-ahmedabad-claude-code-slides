@@ -111,6 +111,12 @@
   opacity: 0.92;
 }
 
+.rights-link {
+  color: color-mix(in oklch, var(--deck-blue), var(--deck-ink) 12%);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .rights-code {
   font-family: ui-monospace, "Cascadia Code", "Segoe UI Mono", monospace;
   font-size: 0.88em;

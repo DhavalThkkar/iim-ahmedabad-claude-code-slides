@@ -6,11 +6,15 @@
     <span class="pointer-events-auto">© 2026 Dhaval Thakkar · CC&nbsp;BY‑NC‑ND&nbsp;4.0</span>
     <a
       class="pointer-events-auto underline decoration-from-font underline-offset-2 transition-opacity"
-      href="https://github.com/DhavalThkkar/iim-ahmedabad-claude-code-slides"
+      :href="termsHref"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Source &amp; terms
+      Terms
     </a>
   </footer>
 </template>
+
+<script setup lang="ts">
+const termsHref = `${import.meta.env.BASE_URL}terms.html`
+</script>
