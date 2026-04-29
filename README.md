@@ -6,7 +6,7 @@ This folder is intentionally outside `trading-stonks` so installs, lock files, e
 
 ## Licensing & copyright
 
-Copyright © 2026 Dhaval Thkkar.
+Copyright © 2026 Dhaval Thakkar.
 
 The repository—including slide content, styling, and supporting configuration—is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International** (**CC BY-NC-ND 4.0**). See the [`LICENSE`](LICENSE) file and the [human-readable summary](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 

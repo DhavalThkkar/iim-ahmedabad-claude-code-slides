@@ -1,7 +1,7 @@
 ---
 theme: default
 title: "Building Fast Without Fooling Yourself"
-author: Dhaval Thkkar
+author: Dhaval Thakkar
 aspectRatio: 16/9
 canvasWidth: 980
 info: |
@@ -499,7 +499,7 @@ class: text-center
 <div class="rights-slide">
   <div class="kicker">Rights &amp; reuse</div>
   <p class="rights-lead mt-8">
-    © 2026 Dhaval Thkkar. This deck is licensed under
+    © 2026 Dhaval Thakkar. This deck is licensed under
     <strong class="rights-strong">CC BY‑NC‑ND 4.0</strong>
     (Attribution · NonCommercial · NoDerivatives).
   </p>
