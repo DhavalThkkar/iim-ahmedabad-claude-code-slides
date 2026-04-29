@@ -515,22 +515,32 @@ class: text-center
 
 ---
 layout: center
-class: text-center
+class: text-left
 ---
 
-<div class="qa-hold">
-  <div class="kicker">Q&A</div>
-  <div class="qa-title mt-4">Questions?</div>
-  <div class="qa-subtitle">Screens, code, workflow, mistakes, or what changed over time.</div>
+<div class="contact-slide">
+  <div class="contact-copy">
+    <div class="kicker">Q&A / Contact</div>
+    <div class="contact-title mt-4">Questions?</div>
+    <div class="contact-subtitle mt-5">Screens, code, workflow, mistakes, or what changed over time.</div>
+  </div>
+  <div class="contact-card">
+    <div class="contact-name">Dhaval Thakkar</div>
+    <a class="contact-link" href="mailto:thakkar.dhaval.haresh@gmail.com">thakkar.dhaval.haresh@gmail.com</a>
+    <a class="contact-link" href="https://www.linkedin.com/in/dhaval-thakkar-dt/" target="_blank" rel="noopener noreferrer">linkedin.com/in/dhaval-thakkar-dt</a>
+    <a class="contact-link" href="https://github.com/DhavalThkkar" target="_blank" rel="noopener noreferrer">github.com/DhavalThkkar</a>
+    <a class="contact-terms" href="./terms.html" target="_blank" rel="noopener noreferrer">Reuse terms</a>
+  </div>
 </div>
 
 <!--
 Purpose:
-- Hold the room for Q&A with a clean institutional close.
+- Hold the room for Q&A with contact details visible.
 
 Say:
 - "Happy to take questions."
 - "Architecture, workflow, the trading-platform build, mistakes, or how the process changed are all fair game."
+- "If you want to follow up later, the contact links are here."
 
 Office beat:
 - If someone asks about letting AI run everything unchecked: "That is where the 'No God, please no' meme belongs."

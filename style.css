@@ -863,14 +863,16 @@
   gap: 28px;
 }
 
-.qa-hold {
+.contact-slide {
+  width: min(880px, 100%);
   min-height: 430px;
   display: grid;
-  place-content: center;
-  text-align: center;
+  grid-template-columns: minmax(0, 1fr) minmax(290px, 0.72fr);
+  gap: 34px;
+  align-items: center;
 }
 
-.qa-title {
+.contact-title {
   color: var(--deck-ink);
   font-size: 3.2rem;
   line-height: 0.95;
@@ -878,13 +880,56 @@
   font-weight: 760;
 }
 
-.qa-subtitle {
-  margin-top: 1.4rem;
-  max-width: 760px;
+.contact-subtitle {
+  max-width: 520px;
   color: var(--deck-muted);
   font-size: 1.55rem;
   line-height: 1.22;
   font-weight: 560;
+}
+
+.contact-card {
+  display: grid;
+  gap: 0.78rem;
+  padding: 1.35rem;
+  border: 1px solid var(--deck-border);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(250, 204, 21, 0.16), transparent 34%),
+    color-mix(in oklch, var(--deck-card), transparent 6%);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+}
+
+.contact-name {
+  color: var(--deck-ink);
+  font-size: 1.45rem;
+  line-height: 1;
+  font-weight: 820;
+  letter-spacing: -0.02em;
+}
+
+.contact-link,
+.contact-terms {
+  color: color-mix(in oklch, var(--deck-blue), var(--deck-ink) 10%);
+  font-size: 0.9rem;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
+.contact-terms {
+  justify-self: start;
+  margin-top: 0.5rem;
+  padding: 0.34rem 0.72rem;
+  border: 1px solid rgba(250, 204, 21, 0.3);
+  border-radius: 999px;
+  color: var(--deck-amber);
+  background: rgba(250, 204, 21, 0.08);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .meme-clean {

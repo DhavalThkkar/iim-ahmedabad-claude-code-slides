@@ -1,22 +1,36 @@
 # IIM Ahmedabad Claude Code Slidev Deck
 
-Standalone Slidev deck for the IIM Ahmedabad Claude Code meetup talk.
+A Slidev deck for the IIM Ahmedabad Claude Code meetup talk: **Building Fast Without Fooling Yourself**.
+
+- **Live deck:** <https://dhavalthkkar.github.io/iim-ahmedabad-claude-code-slides/>
+- **Terms:** <https://dhavalthkkar.github.io/iim-ahmedabad-claude-code-slides/terms.html>
+- **Source:** <https://github.com/DhavalThkkar/iim-ahmedabad-claude-code-slides>
 
 This folder is intentionally outside `trading-stonks` so installs, lock files, exports, and builds do not touch the trading app repository.
 
-## Licensing & copyright
+## About
+
+This presentation covers AI-assisted software engineering in a domain where mistakes matter: moving fast with Claude Code while keeping domain learning, verification, and production confidence grounded in evidence.
+
+## Contact
+
+- **Email:** [thakkar.dhaval.haresh@gmail.com](mailto:thakkar.dhaval.haresh@gmail.com)
+- **LinkedIn:** <https://www.linkedin.com/in/dhaval-thakkar-dt/>
+- **GitHub:** <https://github.com/DhavalThkkar>
+
+For reuse beyond the published license, please contact Dhaval Thakkar first.
+
+## Reuse and license
 
 Copyright © 2026 Dhaval Thakkar.
 
-The repository—including slide content, styling, and supporting configuration—is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International** (**CC BY-NC-ND 4.0**). See the [`LICENSE`](LICENSE) file and the [human-readable summary](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+The repository, including slide content, styling, and supporting configuration, is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International** (**CC BY-NC-ND 4.0**). See [`LICENSE`](LICENSE), the [human-readable summary](https://creativecommons.org/licenses/by-nc-nd/4.0/), and the published [`terms.html`](public/terms.html) page.
 
-The published deck also includes a public terms page at `/terms.html` (source: [`public/terms.html`](public/terms.html)). This keeps the reuse terms visible even if the repository is made private later.
+In short: you may view and share the deck with attribution for non-commercial purposes. Commercial reuse, adapted versions, derivative works, or training material derived from the deck require separate written permission.
 
-**Private repository:** Making this repo **private** does **not** remove copyright. It limits who can discover the files on GitHub; it does not replace a license. Any published site (for example GitHub Pages) should still respect the terms you publish alongside it.
+This is not legal advice. For enforcement questions or commercial use, consult a qualified attorney.
 
-**Not legal advice.** For commercial reuse, adaptations beyond the license, or enforcement questions, consult a qualified attorney.
-
-## Run
+## Local development
 
 ```bash
 npm install
@@ -28,6 +42,8 @@ npm run dev
 ```bash
 npm run build
 ```
+
+GitHub Pages builds with the repository base path via `.github/workflows/deploy.yml`.
 
 ## Export
 
