@@ -14,6 +14,19 @@
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.deck-global-footer {
+  color: color-mix(in oklch, var(--deck-muted), var(--deck-ink) 14%);
+  opacity: 0.88;
+}
+
+.deck-global-footer a {
+  color: color-mix(in oklch, var(--deck-muted), var(--deck-amber) 22%);
+}
+
+.deck-global-footer a:hover {
+  opacity: 1;
+}
+
 .slidev-layout {
   position: relative;
   background:
@@ -67,6 +80,44 @@
 
 .cover-copy {
   max-width: 650px;
+}
+
+.rights-slide {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.rights-lead {
+  font-size: 1.35rem;
+  line-height: 1.45;
+  color: var(--deck-ink);
+}
+
+.rights-strong {
+  color: color-mix(in oklch, var(--deck-amber), var(--deck-ink) 10%);
+  font-weight: 700;
+}
+
+.rights-detail,
+.rights-note {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: color-mix(in oklch, var(--deck-muted), var(--deck-ink) 25%);
+}
+
+.rights-note {
+  font-size: 0.82rem;
+  opacity: 0.92;
+}
+
+.rights-code {
+  font-family: ui-monospace, "Cascadia Code", "Segoe UI Mono", monospace;
+  font-size: 0.88em;
+  padding: 0.12em 0.38em;
+  border-radius: 0.35rem;
+  background: color-mix(in oklch, var(--deck-card), transparent 35%);
+  border: 1px solid var(--deck-border);
 }
 
 .title-only {
