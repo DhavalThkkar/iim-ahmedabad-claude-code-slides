@@ -1,0 +1,734 @@
+[
+  {
+    "slideNo": 1,
+    "h1": {
+      "tag": "div",
+      "cls": "opening-title",
+      "text": "Don't let the model invent the domain",
+      "x": 56,
+      "y": 208,
+      "w": 868,
+      "h": 112,
+      "right": 924,
+      "bottom": 320
+    },
+    "cards": [],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 2,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg mt-4",
+      "text": "The repo moved fast. The domain had to be earned.",
+      "x": 54,
+      "y": 75,
+      "w": 870,
+      "h": 68,
+      "right": 924,
+      "bottom": 144
+    },
+    "cards": [
+      {
+        "cls": "stage-card metric-console mt-6 accent-blue",
+        "text": "Speed was real. Trust was not automatic. The project needed ",
+        "x": 56,
+        "y": 168,
+        "w": 868,
+        "h": 237,
+        "bottom": 404
+      },
+      {
+        "cls": "card metric-card",
+        "text": "VELOCITY 308 commits",
+        "x": 74,
+        "y": 247,
+        "w": 269,
+        "h": 140,
+        "bottom": 386
+      },
+      {
+        "cls": "card metric-card",
+        "text": "LEARNING WINDOW 11 weeks",
+        "x": 355,
+        "y": 247,
+        "w": 269,
+        "h": 140,
+        "bottom": 386
+      },
+      {
+        "cls": "card metric-card",
+        "text": "BOUNDARY 0 live trades before safety was credible",
+        "x": 637,
+        "y": 247,
+        "w": 269,
+        "h": 140,
+        "bottom": 386
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 3,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg",
+      "text": "In some domains, a wrong answer looks convincing",
+      "x": 54,
+      "y": 59,
+      "w": 870,
+      "h": 68,
+      "right": 924,
+      "bottom": 128
+    },
+    "cards": [
+      {
+        "cls": "stage-card evidence-card accent-green",
+        "text": "WHAT FOOLS YOU Looks good A polished dashboard, profitable b",
+        "x": 56,
+        "y": 148,
+        "w": 307,
+        "h": 287,
+        "bottom": 435
+      },
+      {
+        "cls": "card-title text-2xl mt-2",
+        "text": "Looks good",
+        "x": 74,
+        "y": 218,
+        "w": 272,
+        "h": 32,
+        "bottom": 250
+      },
+      {
+        "cls": "stage-card evidence-card accent-red",
+        "text": "WHAT CAN BE HIDING Still wrong Stale data, mismatched assump",
+        "x": 379,
+        "y": 148,
+        "w": 307,
+        "h": 287,
+        "bottom": 435
+      },
+      {
+        "cls": "card-title text-2xl mt-2",
+        "text": "Still wrong",
+        "x": 397,
+        "y": 218,
+        "w": 272,
+        "h": 32,
+        "bottom": 250
+      },
+      {
+        "cls": "gif-panel",
+        "text": "",
+        "x": 703,
+        "y": 148,
+        "w": 221,
+        "h": 247,
+        "bottom": 395
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 4,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg",
+      "text": "A decision system, not a dashboard",
+      "x": 54,
+      "y": 59,
+      "w": 870,
+      "h": 34,
+      "right": 924,
+      "bottom": 93
+    },
+    "cards": [
+      {
+        "cls": "stage-card layer-card large accent-blue",
+        "text": "1 Human screens Trading Day Discovery Backtest Lab Pipeline",
+        "x": 56,
+        "y": 169,
+        "w": 299,
+        "h": 295,
+        "bottom": 464
+      },
+      {
+        "cls": "card-title text-3xl",
+        "text": "Human screens",
+        "x": 74,
+        "y": 240,
+        "w": 264,
+        "h": 36,
+        "bottom": 276
+      },
+      {
+        "cls": "stage-card layer-card accent-violet",
+        "text": "2 Rules engine Strategies, schedules, execution logic",
+        "x": 367,
+        "y": 169,
+        "w": 272,
+        "h": 141,
+        "bottom": 311
+      },
+      {
+        "cls": "card-title",
+        "text": "Rules engine",
+        "x": 385,
+        "y": 222,
+        "w": 237,
+        "h": 26,
+        "bottom": 248
+      },
+      {
+        "cls": "card-text",
+        "text": "Strategies, schedules, execution logic",
+        "x": 385,
+        "y": 254,
+        "w": 237,
+        "h": 39,
+        "bottom": 293
+      },
+      {
+        "cls": "stage-card layer-card accent-red",
+        "text": "3 Safety layer Risk limits, approvals, fail-closed behavior",
+        "x": 652,
+        "y": 169,
+        "w": 272,
+        "h": 141,
+        "bottom": 311
+      },
+      {
+        "cls": "card-title",
+        "text": "Safety layer",
+        "x": 670,
+        "y": 222,
+        "w": 237,
+        "h": 26,
+        "bottom": 248
+      },
+      {
+        "cls": "card-text",
+        "text": "Risk limits, approvals, fail-closed behavior",
+        "x": 670,
+        "y": 254,
+        "w": 237,
+        "h": 39,
+        "bottom": 293
+      },
+      {
+        "cls": "stage-card layer-card accent-green",
+        "text": "4 Evidence layer Market state, backtests, decision history",
+        "x": 367,
+        "y": 323,
+        "w": 272,
+        "h": 141,
+        "bottom": 464
+      },
+      {
+        "cls": "card-title",
+        "text": "Evidence layer",
+        "x": 385,
+        "y": 375,
+        "w": 237,
+        "h": 26,
+        "bottom": 401
+      },
+      {
+        "cls": "card-text",
+        "text": "Market state, backtests, decision history",
+        "x": 385,
+        "y": 407,
+        "w": 237,
+        "h": 39,
+        "bottom": 446
+      },
+      {
+        "cls": "stage-card layer-card accent-amber",
+        "text": "5 Broker boundary Actual order execution stays behind contro",
+        "x": 652,
+        "y": 323,
+        "w": 272,
+        "h": 141,
+        "bottom": 464
+      },
+      {
+        "cls": "card-title",
+        "text": "Broker boundary",
+        "x": 670,
+        "y": 375,
+        "w": 237,
+        "h": 26,
+        "bottom": 401
+      },
+      {
+        "cls": "card-text",
+        "text": "Actual order execution stays behind controls",
+        "x": 670,
+        "y": 407,
+        "w": 237,
+        "h": 39,
+        "bottom": 446
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 5,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg",
+      "text": "The git history tells the story",
+      "x": 54,
+      "y": 59,
+      "w": 870,
+      "h": 34,
+      "right": 924,
+      "bottom": 93
+    },
+    "cards": [
+      {
+        "cls": "card era-card accent-blue",
+        "text": "01 Fast build Vertical slices and broad feature commits.",
+        "x": 56,
+        "y": 113,
+        "w": 162,
+        "h": 220,
+        "bottom": 333
+      },
+      {
+        "cls": "card era-card accent-violet",
+        "text": "02 Phases Plans, trackers, smaller task boundaries.",
+        "x": 232,
+        "y": 113,
+        "w": 162,
+        "h": 220,
+        "bottom": 333
+      },
+      {
+        "cls": "card era-card accent-red",
+        "text": "03 Hardening Audits, silent failure modes, fail-closed paths",
+        "x": 409,
+        "y": 113,
+        "w": 162,
+        "h": 220,
+        "bottom": 333
+      },
+      {
+        "cls": "card era-card accent-green",
+        "text": "04 Realism Backtests had to match production assumptions.",
+        "x": 585,
+        "y": 113,
+        "w": 162,
+        "h": 220,
+        "bottom": 333
+      },
+      {
+        "cls": "card era-card accent-amber",
+        "text": "05 Governance Approvals, lineage, and control-plane thinking",
+        "x": 762,
+        "y": 113,
+        "w": 162,
+        "h": 220,
+        "bottom": 333
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 6,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg",
+      "text": "How I did not let the model fake finance",
+      "x": 54,
+      "y": 59,
+      "w": 870,
+      "h": 34,
+      "right": 924,
+      "bottom": 93
+    },
+    "cards": [
+      {
+        "cls": "stage-card guardrail-card accent-blue",
+        "text": "INTERROGATE Ask from multiple angles Use the model to surfac",
+        "x": 56,
+        "y": 117,
+        "w": 425,
+        "h": 155,
+        "bottom": 272
+      },
+      {
+        "cls": "card-title text-2xl mt-3",
+        "text": "Ask from multiple angles",
+        "x": 74,
+        "y": 165,
+        "w": 389,
+        "h": 32,
+        "bottom": 197
+      },
+      {
+        "cls": "card-text mt-3",
+        "text": "Use the model to surface assumptions, not to certify them.",
+        "x": 74,
+        "y": 209,
+        "w": 389,
+        "h": 39,
+        "bottom": 249
+      },
+      {
+        "cls": "stage-card guardrail-card accent-violet",
+        "text": "WRITE Turn uncertainty into artifacts Docs, specs, and desig",
+        "x": 499,
+        "y": 117,
+        "w": 425,
+        "h": 155,
+        "bottom": 272
+      },
+      {
+        "cls": "card-title text-2xl mt-3",
+        "text": "Turn uncertainty into artifacts",
+        "x": 517,
+        "y": 165,
+        "w": 389,
+        "h": 32,
+        "bottom": 197
+      },
+      {
+        "cls": "card-text mt-3",
+        "text": "Docs, specs, and design notes became the working memory.",
+        "x": 517,
+        "y": 209,
+        "w": 389,
+        "h": 39,
+        "bottom": 249
+      },
+      {
+        "cls": "stage-card guardrail-card accent-amber",
+        "text": "PACKAGE Convert ideas into task packs Acceptance criteria ma",
+        "x": 56,
+        "y": 290,
+        "w": 425,
+        "h": 155,
+        "bottom": 445
+      },
+      {
+        "cls": "card-title text-2xl mt-3",
+        "text": "Convert ideas into task packs",
+        "x": 74,
+        "y": 338,
+        "w": 389,
+        "h": 32,
+        "bottom": 370
+      },
+      {
+        "cls": "card-text mt-3",
+        "text": "Acceptance criteria made work reviewable before code changed",
+        "x": 74,
+        "y": 382,
+        "w": 389,
+        "h": 39,
+        "bottom": 422
+      },
+      {
+        "cls": "stage-card guardrail-card accent-green",
+        "text": "VERIFY Treat first answers as drafts Tests, audits, and corr",
+        "x": 499,
+        "y": 290,
+        "w": 425,
+        "h": 155,
+        "bottom": 445
+      },
+      {
+        "cls": "card-title text-2xl mt-3",
+        "text": "Treat first answers as drafts",
+        "x": 517,
+        "y": 338,
+        "w": 389,
+        "h": 32,
+        "bottom": 370
+      },
+      {
+        "cls": "card-text mt-3",
+        "text": "Tests, audits, and corrections decided what was true.",
+        "x": 517,
+        "y": 382,
+        "w": 389,
+        "h": 20,
+        "bottom": 402
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 7,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg",
+      "text": "The workflow that actually worked",
+      "x": 54,
+      "y": 59,
+      "w": 870,
+      "h": 34,
+      "right": 924,
+      "bottom": 93
+    },
+    "cards": [
+      {
+        "cls": "stage-card accent-red",
+        "text": "EARLY Big prompt 1 Ask broadly The task sounded clear until ",
+        "x": 56,
+        "y": 117,
+        "w": 425,
+        "h": 340,
+        "bottom": 458
+      },
+      {
+        "cls": "card-title text-3xl mt-3",
+        "text": "Big prompt",
+        "x": 74,
+        "y": 165,
+        "w": 389,
+        "h": 36,
+        "bottom": 201
+      },
+      {
+        "cls": "phase-item",
+        "text": "1 Ask broadly The task sounded clear until the diff arrived.",
+        "x": 74,
+        "y": 221,
+        "w": 389,
+        "h": 65,
+        "bottom": 286
+      },
+      {
+        "cls": "phase-item",
+        "text": "2 Big diff Too much changed at once.",
+        "x": 74,
+        "y": 298,
+        "w": 389,
+        "h": 65,
+        "bottom": 363
+      },
+      {
+        "cls": "phase-item",
+        "text": "3 Review painfully Correctness was hard to see.",
+        "x": 74,
+        "y": 375,
+        "w": 389,
+        "h": 65,
+        "bottom": 440
+      },
+      {
+        "cls": "stage-card accent-green",
+        "text": "LATER Smaller contract 1 Spec + plan Write the domain and ac",
+        "x": 499,
+        "y": 117,
+        "w": 425,
+        "h": 340,
+        "bottom": 458
+      },
+      {
+        "cls": "card-title text-3xl mt-3",
+        "text": "Smaller contract",
+        "x": 517,
+        "y": 165,
+        "w": 389,
+        "h": 36,
+        "bottom": 201
+      },
+      {
+        "cls": "phase-item",
+        "text": "1 Spec + plan Write the domain and acceptance criteria first",
+        "x": 517,
+        "y": 221,
+        "w": 389,
+        "h": 65,
+        "bottom": 286
+      },
+      {
+        "cls": "phase-item",
+        "text": "2 Isolate + parallelize Use agents only when boundaries are ",
+        "x": 517,
+        "y": 298,
+        "w": 389,
+        "h": 65,
+        "bottom": 363
+      },
+      {
+        "cls": "phase-item",
+        "text": "3 Test + review Verify, then merge.",
+        "x": 517,
+        "y": 375,
+        "w": 389,
+        "h": 65,
+        "bottom": 440
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 8,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg",
+      "text": "The places I had to rethink everything",
+      "x": 54,
+      "y": 59,
+      "w": 870,
+      "h": 34,
+      "right": 924,
+      "bottom": 93
+    },
+    "cards": [
+      {
+        "cls": "stage-card evidence-card accent-red",
+        "text": "BACKTEST REALISM Research had to match live behavior If sizi",
+        "x": 56,
+        "y": 117,
+        "w": 276,
+        "h": 224,
+        "bottom": 341
+      },
+      {
+        "cls": "card-title text-2xl",
+        "text": "Research had to match live behavior",
+        "x": 74,
+        "y": 180,
+        "w": 240,
+        "h": 64,
+        "bottom": 244
+      },
+      {
+        "cls": "stage-card evidence-card accent-amber",
+        "text": "FAIL-CLOSED Unclear should mean blocked Permissive defaults ",
+        "x": 352,
+        "y": 117,
+        "w": 276,
+        "h": 224,
+        "bottom": 341
+      },
+      {
+        "cls": "card-title text-2xl",
+        "text": "Unclear should mean blocked",
+        "x": 370,
+        "y": 180,
+        "w": 240,
+        "h": 64,
+        "bottom": 244
+      },
+      {
+        "cls": "stage-card evidence-card accent-green",
+        "text": "GOVERNANCE Approval needs a paper trail Lineage, approvals, ",
+        "x": 648,
+        "y": 117,
+        "w": 276,
+        "h": 224,
+        "bottom": 341
+      },
+      {
+        "cls": "card-title text-2xl",
+        "text": "Approval needs a paper trail",
+        "x": 666,
+        "y": 180,
+        "w": 240,
+        "h": 64,
+        "bottom": 244
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 9,
+    "h1": {
+      "tag": "h1",
+      "cls": "headline-lg",
+      "text": "What you can use on Monday",
+      "x": 54,
+      "y": 59,
+      "w": 870,
+      "h": 34,
+      "right": 924,
+      "bottom": 93
+    },
+    "cards": [
+      {
+        "cls": "card action-card accent-blue",
+        "text": "Don't invent the domain Use AI to expose gaps, not to hide t",
+        "x": 56,
+        "y": 117,
+        "w": 162,
+        "h": 142,
+        "bottom": 259
+      },
+      {
+        "cls": "card action-card accent-violet",
+        "text": "Write the risks Name the things that must not go wrong.",
+        "x": 232,
+        "y": 117,
+        "w": 162,
+        "h": 142,
+        "bottom": 259
+      },
+      {
+        "cls": "card action-card accent-amber",
+        "text": "Split the work Turn broad ideas into task packs and acceptan",
+        "x": 409,
+        "y": 117,
+        "w": 162,
+        "h": 142,
+        "bottom": 259
+      },
+      {
+        "cls": "card action-card accent-green",
+        "text": "Ask for proof Tests, audits, and logs beat fluent explanatio",
+        "x": 585,
+        "y": 117,
+        "w": 162,
+        "h": 142,
+        "bottom": 259
+      },
+      {
+        "cls": "card action-card accent-red",
+        "text": "Keep humans in control Risky actions need approval, not auto",
+        "x": 762,
+        "y": 117,
+        "w": 162,
+        "h": 142,
+        "bottom": 259
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 10,
+    "cards": [
+      {
+        "cls": "gif-panel thank-you-panel",
+        "text": "",
+        "x": 0,
+        "y": 0,
+        "w": 980,
+        "h": 552,
+        "bottom": 552
+      }
+    ],
+    "visibleOverflow": []
+  },
+  {
+    "slideNo": 11,
+    "h1": {
+      "tag": "div",
+      "cls": "qa-title mt-4",
+      "text": "Questions?",
+      "x": 110,
+      "y": 228,
+      "w": 760,
+      "h": 49,
+      "right": 870,
+      "bottom": 276
+    },
+    "cards": [],
+    "visibleOverflow": []
+  }
+]
