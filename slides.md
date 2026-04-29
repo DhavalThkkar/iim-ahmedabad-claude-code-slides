@@ -4,7 +4,7 @@ title: "Building Fast Without Fooling Yourself"
 aspectRatio: 16/9
 canvasWidth: 980
 info: |
-  IIM Ahmedabad Cloud Code Meetup talk.
+  IIM Ahmedabad Claude Code Meetup talk.
   AI coding workflows, domain learning, trading platform build story.
 class: text-left
 drawings:
@@ -114,7 +114,7 @@ Transition:
   </div>
   <div class="meme-clean proof-meme">
     <div class="gif-panel proof-gif">
-      <img src="./assets/dwight-false.gif" alt="Dwight Schrute saying False GIF" />
+      <img src="/assets/dwight-false.gif" alt="Dwight Schrute saying False GIF" />
     </div>
     <div class="quiet-caption">The model sounded certain. Dwight asked for evidence.</div>
   </div>
@@ -350,7 +350,7 @@ Transition:
 <!--
 Purpose:
 - Show the workflow maturity curve in a readable before/after shape.
-- Make isolation, parallel agents, tests, and review the practical cloud-code lesson.
+- Make isolation, parallel agents, tests, and review the practical claude-code lesson.
 
 Say:
 - "Early on, I was asking for big things and getting big diffs."
@@ -475,7 +475,7 @@ class: text-center
 
 <div class="full-bleed-meme">
   <div class="gif-panel thank-you-panel">
-    <img src="./assets/michael-thank-you.gif" alt="Michael Scott saying thank you GIF" />
+    <img src="/assets/michael-thank-you.gif" alt="Michael Scott saying thank you GIF" />
   </div>
 </div>
 
