@@ -8,8 +8,11 @@ on:
   push:
     branches: [main, master]
 
+# Required for configure-pages, upload-pages-artifact, and deploy-pages (GITHUB_TOKEN).
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
