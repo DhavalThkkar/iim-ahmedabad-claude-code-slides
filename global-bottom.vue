@@ -5,7 +5,7 @@
   >
     <span class="pointer-events-auto">© 2026 Dhaval Thakkar · CC&nbsp;BY‑NC‑ND&nbsp;4.0</span>
     <a
-      class="pointer-events-auto underline decoration-from-font underline-offset-2 transition-opacity"
+      class="pointer-events-auto transition-opacity"
       :href="termsHref"
       target="_blank"
       rel="noopener noreferrer"

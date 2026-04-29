@@ -21,10 +21,23 @@
 
 .deck-global-footer a {
   color: color-mix(in oklch, var(--deck-muted), var(--deck-amber) 22%);
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.05rem 0.3rem;
 }
 
 .deck-global-footer a:hover {
   opacity: 1;
+  color: var(--deck-amber);
+}
+
+.deck-global-footer a:focus {
+  outline: none;
+}
+
+.deck-global-footer a:focus-visible {
+  outline: 2px solid rgba(250, 204, 21, 0.72);
+  outline-offset: 3px;
 }
 
 .slidev-layout {
@@ -111,10 +124,30 @@
   opacity: 0.92;
 }
 
-.rights-link {
-  color: color-mix(in oklch, var(--deck-blue), var(--deck-ink) 12%);
-  text-decoration: underline;
-  text-underline-offset: 0.18em;
+.terms-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(250, 204, 21, 0.38);
+  border-radius: 999px;
+  background: rgba(250, 204, 21, 0.08);
+  color: var(--deck-amber);
+  padding: 0.46rem 0.9rem;
+  font-size: 0.78rem;
+  line-height: 1;
+  font-weight: 850;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.terms-chip:focus {
+  outline: none;
+}
+
+.terms-chip:focus-visible {
+  outline: 2px solid rgba(250, 204, 21, 0.72);
+  outline-offset: 4px;
 }
 
 .rights-code {
@@ -872,14 +905,6 @@
   align-items: center;
 }
 
-.contact-title {
-  color: var(--deck-ink);
-  font-size: 3.2rem;
-  line-height: 0.95;
-  letter-spacing: -0.04em;
-  font-weight: 760;
-}
-
 .contact-subtitle {
   max-width: 520px;
   color: var(--deck-muted);
@@ -888,16 +913,10 @@
   font-weight: 560;
 }
 
-.contact-card {
+.contact-panel {
   display: grid;
-  gap: 0.78rem;
-  padding: 1.35rem;
-  border: 1px solid var(--deck-border);
-  border-radius: 24px;
-  background:
-    radial-gradient(circle at 18% 12%, rgba(250, 204, 21, 0.16), transparent 34%),
-    color-mix(in oklch, var(--deck-card), transparent 6%);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+  align-content: start;
+  min-height: 270px;
 }
 
 .contact-name {
@@ -908,28 +927,58 @@
   letter-spacing: -0.02em;
 }
 
-.contact-link,
-.contact-terms {
-  color: color-mix(in oklch, var(--deck-blue), var(--deck-ink) 10%);
-  font-size: 0.9rem;
-  line-height: 1.2;
-  text-decoration: underline;
-  text-underline-offset: 0.22em;
+.contact-stack {
+  display: grid;
+  gap: 0.58rem;
 }
 
-.contact-terms {
-  justify-self: start;
-  margin-top: 0.5rem;
-  padding: 0.34rem 0.72rem;
-  border: 1px solid rgba(250, 204, 21, 0.3);
-  border-radius: 999px;
-  color: var(--deck-amber);
-  background: rgba(250, 204, 21, 0.08);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+.contact-chip {
+  display: grid;
+  grid-template-columns: 74px minmax(0, 1fr);
+  gap: 0.74rem;
+  align-items: center;
+  border: 1px solid var(--deck-border);
+  border-radius: 16px;
+  background: rgba(247, 241, 223, 0.065);
+  color: #e9dfc9;
+  padding: 0.58rem 0.72rem;
   text-decoration: none;
+}
+
+.contact-chip span {
+  color: var(--deck-amber);
+  font-size: 0.68rem;
+  line-height: 1;
+  font-weight: 880;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact-chip strong {
+  color: color-mix(in oklch, var(--deck-ink), var(--deck-muted) 8%);
+  overflow-wrap: anywhere;
+  font-size: 0.86rem;
+  line-height: 1.12;
+  font-weight: 760;
+}
+
+.contact-chip:hover {
+  border-color: rgba(125, 211, 252, 0.52);
+  background: rgba(125, 211, 252, 0.08);
+}
+
+.contact-chip:focus {
+  outline: none;
+}
+
+.contact-chip:focus-visible {
+  outline: 2px solid rgba(250, 204, 21, 0.72);
+  outline-offset: 4px;
+}
+
+.contact-chip-muted {
+  border-color: rgba(250, 204, 21, 0.28);
+  background: rgba(250, 204, 21, 0.07);
 }
 
 .meme-clean {

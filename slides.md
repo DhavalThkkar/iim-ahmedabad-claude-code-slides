@@ -493,43 +493,36 @@ Transition:
 
 ---
 layout: center
-class: text-center
----
-
-<div class="rights-slide">
-  <div class="kicker">Rights &amp; reuse</div>
-  <p class="rights-lead mt-8">
-    © 2026 Dhaval Thakkar. This deck is licensed under
-    <strong class="rights-strong">CC BY‑NC‑ND 4.0</strong>
-    (Attribution · NonCommercial · NoDerivatives).
-  </p>
-  <p class="rights-detail mt-5">
-    You may view and share this work with credit. Uses outside the license—especially commercial
-    reuse or adapted versions—require separate permission. Full terms are published on this site:
-    <a class="rights-link" href="./terms.html" target="_blank" rel="noopener noreferrer">terms.html</a>.
-  </p>
-  <p class="rights-note mt-6">
-    This slide is not legal advice. Third‑party media in the deck may be subject to separate rights.
-  </p>
-</div>
-
----
-layout: center
 class: text-left
 ---
 
 <div class="contact-slide">
   <div class="contact-copy">
     <div class="kicker">Q&A / Contact</div>
-    <div class="contact-title mt-4">Questions?</div>
+    <h1 class="headline-lg mt-4">Questions?<br/><span class="amber">Reach out.</span></h1>
     <div class="contact-subtitle mt-5">Screens, code, workflow, mistakes, or what changed over time.</div>
   </div>
-  <div class="contact-card">
-    <div class="contact-name">Dhaval Thakkar</div>
-    <a class="contact-link" href="mailto:thakkar.dhaval.haresh@gmail.com">thakkar.dhaval.haresh@gmail.com</a>
-    <a class="contact-link" href="https://www.linkedin.com/in/dhaval-thakkar-dt/" target="_blank" rel="noopener noreferrer">linkedin.com/in/dhaval-thakkar-dt</a>
-    <a class="contact-link" href="https://github.com/DhavalThkkar" target="_blank" rel="noopener noreferrer">github.com/DhavalThkkar</a>
-    <a class="contact-terms" href="./terms.html" target="_blank" rel="noopener noreferrer">Reuse terms</a>
+  <div class="stage-card accent-blue contact-panel">
+    <div class="comparison-label">Continue the conversation</div>
+    <div class="contact-name mt-2">Dhaval Thakkar</div>
+    <div class="contact-stack mt-5">
+      <a class="contact-chip" href="mailto:thakkar.dhaval.haresh@gmail.com">
+        <span>Email</span>
+        <strong>thakkar.dhaval.haresh@gmail.com</strong>
+      </a>
+      <a class="contact-chip" href="https://www.linkedin.com/in/dhaval-thakkar-dt/" target="_blank" rel="noopener noreferrer">
+        <span>LinkedIn</span>
+        <strong>linkedin.com/in/dhaval-thakkar-dt</strong>
+      </a>
+      <a class="contact-chip" href="https://github.com/DhavalThkkar" target="_blank" rel="noopener noreferrer">
+        <span>GitHub</span>
+        <strong>github.com/DhavalThkkar</strong>
+      </a>
+      <TermsLink class="contact-chip contact-chip-muted">
+        <span>Reuse</span>
+        <strong>Terms &amp; permissions</strong>
+      </TermsLink>
+    </div>
   </div>
 </div>
 
@@ -545,3 +538,27 @@ Say:
 Office beat:
 - If someone asks about letting AI run everything unchecked: "That is where the 'No God, please no' meme belongs."
 -->
+
+---
+layout: center
+class: text-center
+---
+
+<div class="rights-slide">
+  <div class="kicker">Rights &amp; reuse</div>
+  <p class="rights-lead mt-8">
+    © 2026 Dhaval Thakkar. This deck is licensed under
+    <strong class="rights-strong">CC BY‑NC‑ND 4.0</strong>
+    (Attribution · NonCommercial · NoDerivatives).
+  </p>
+  <p class="rights-detail mt-5">
+    You may view and share this work with credit. Commercial reuse, adapted versions,
+    or training materials derived from the deck require separate written permission.
+  </p>
+  <div class="mt-6">
+    <TermsLink class="terms-chip">Full terms</TermsLink>
+  </div>
+  <p class="rights-note mt-6">
+    This slide is not legal advice. Third‑party media in the deck may be subject to separate rights.
+  </p>
+</div>
